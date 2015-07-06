@@ -1,4 +1,4 @@
-source = [http://www.mpi-sws.org/~cristian/Cornell_Movie-Dialogs_Corpus](http://www.mpi-sws.org/~cristian/Cornell_Movie-Dialogs_Corpus)
+source = http://www.mpi-sws.org/~cristian/Cornell_Movie-Dialogs_Corpus.html
 Size= 33MB
 
 **Below is a small chunk of input file**
