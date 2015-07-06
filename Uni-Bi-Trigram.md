@@ -20,7 +20,12 @@ space <- unlist(strsplit(low, "[[:space:]]+"))
 
 #removing punctuations.
 punc= gsub("[[:punct:]]", "", space)
+```
 
+*Uni gram*
+
+
+```{r}
 # Remove empty tokens
 emp <- punc[punc != ""]
 
@@ -35,13 +40,11 @@ head(uni, n=100)
 for (b in names(uni)[1:100]) {
   cat(b, uni[b], uni[b]/3176748, "\n", sep="\t")
 };
-
-
 ```
 
 
 
-*Bigram
+*Bigram*
 
 
 ```{r}
@@ -63,7 +66,7 @@ trigrams <- paste(emp, tokens2, tokens3)
 
 
 
-*Trigram
+*Trigram*
 
 
 ```{r}
