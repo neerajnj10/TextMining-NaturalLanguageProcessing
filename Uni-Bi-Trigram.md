@@ -1,7 +1,8 @@
 
 title: "text mine"
+
 author: "Neeraj"
-output: word_document
+
 
 ```{r}
 #reading text file.
